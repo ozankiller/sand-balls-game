@@ -16,7 +16,7 @@ public class ScoreCounter : MonoBehaviour
     void Start()
     {
         gameManager = Object.FindObjectOfType<GameManager>();
-        score = 1;
+        score = 0;
         endingGame = false;
     }
 
